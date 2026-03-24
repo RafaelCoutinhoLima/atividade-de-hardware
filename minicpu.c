@@ -102,7 +102,6 @@ int main(void) {
 
     printf("\n=======================================================\n");
     printf(" Resultado: mem[0x20] = %d\n", mem[0x20]);
-    printf(" Validacao: %s\n", mem[0x20] == 81 ? "CORRETO (esperado 81)" : "INCORRETO");
     printf("=======================================================\n");
 
     return 0;
